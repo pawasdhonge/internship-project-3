@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>E-commerce Product Page</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #f0f0f0, #ddd);
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to right, #e44d26, #f16529);
+            color: #fff;
+            padding: 15px 0;
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .logo h1 {
+            color: #fff;
+            font-size: 24px;
+        }
+
+        .search-bar {
+            display: flex;
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        .search-button {
+            background: #e44d26;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .user-actions a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .user-actions a:hover {
+            color: #e44d26;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+               
+                <h1>Stylish Shop</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button class="search-button">Search</button>
+            </div>
+            <div class="user-actions">
+                <a href="#">My Account</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Cart</a>
+            </div>
+        </div>
+    </header>
+
+    
+
+    <section class="product-container">
+        <div class="product-images">
+            <img src="https://picsum.photos/300/200?random=1" alt="Product Image 1">
+        </div>
+        <div class="product-info">
+            <h2>Painting 1</h2>
+            <p class="description">wall frames 1.</p>
+            <p class="price">Price: $99.99</p>
+            <button class="cta-button">Add to Cart</button>
+        </div>
+    </section>
+
+    <section class="product-container">
+        <div class="product-images">
+            <img src="https://picsum.photos/300/200?random=2" alt="Product Image 2">
+        </div>
+        <div class="product-info">
+            <h2>Painting 2</h2>
+            <p class="description">wall frames 2</p>
+            <p class="price">Price: $129.99</p>
+            <button class="cta-button">Add to Cart</button>
+        </div>
+    </section>
+
+    <!-- Add more product sections as needed -->
+
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
